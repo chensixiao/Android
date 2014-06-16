@@ -11,7 +11,8 @@ public class FileEditor {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		File file = new File("C:/Users/Sean/Documents/FileEditorFile.txt");
+		System.out.println("Give File Path: ");
+		File file = new File(sc.nextLine());
 		while (true){
 		System.out.println("What would you like to add to the document: ");
 		String userInput = sc.nextLine();
